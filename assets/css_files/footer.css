@@ -52,14 +52,24 @@
 	text-align: center;
 }
 
-@media (min-width: 1024px){
-	.sep-temporal{
-		display: none;
-	}
-}
+/* <-----> CELULAR <-----> */
 
 @media (min-width: 360px){
 	.sep-temporal{
 		display: none;
+	}
+	.final-info{
+		/*background: red;*/
+	}
+}
+
+/* <-----> COMPUTADORA <-----> */
+
+@media (min-width: 1024px){
+	.sep-temporal{
+		display: none;
+	}
+	.final-info{
+		/*background: blue;*/
 	}
 }

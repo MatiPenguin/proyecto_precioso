@@ -3,7 +3,7 @@
 @import url("banner.css");
 @import url("footer.css");
 /*COLOR ROJO DE MENÚ: #E74C3C;*/
-
+/* TODOS LOS ESTILOS POR DEFECTO VIENEN A SER DE 500 PIXELES */
 *{
 	padding: 0;
 	margin: 0;

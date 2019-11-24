@@ -85,6 +85,12 @@
 */
 /* <-----> RESPONSIVE <-----> */
 
+@media (min-width: 360px){
+	.contenido-titular{
+		margin-top: 200px;
+	}
+}
+
 @media (min-width: 1024px){
 	.contenido-titular{
 		margin-top: 75px;
