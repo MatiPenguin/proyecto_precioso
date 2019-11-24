@@ -1,0 +1,95 @@
+/* --------CONTENIDO TITULAR-------- */
+
+.contenido-titular{
+	/*position: relative;*/
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+	margin-top: 75px;
+	/*background: #fff;*/
+	width: 100%;
+	/*background: red;*/
+	/*margin-left: 15%;*/
+}
+
+.img-banner{
+	width: 100%;
+	background: #000;
+}
+
+.img-banner img{
+	width: 100%;
+	max-width: 1024px;
+}
+
+.contenido-titular h1{
+	text-align: center;
+	color: #000;
+	background: rgba(255, 255, 255, 0.5);
+	top: 450px;
+	left: 0px;
+	position: absolute;
+	/*z-index: 100;*/
+	font-family: 'Squada One', cursive;
+	font-size: 40px;
+}
+
+.wrap{
+	position: relative;
+	width: 170px;
+	transition: 2s;
+}
+
+.tirita{
+	background: #EC7063;
+	height: 36px;
+	width: 170px;
+	overflow: hidden;
+	transition: 2s;
+	/*position: relative;*/
+}
+
+.tirita a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+}
+
+.tirita:hover{
+	width: 430px;
+}
+
+.wrap:hover{
+	width: 430px;
+}
+
+.punta-tirita{
+	height: 33px;
+	position: absolute;
+	z-index: 10;
+	top: -4px;
+	right: -40px;
+/*	border-left: 18px solid #d9534f;
+    border-right: 18px solid #d9534f;
+*/	border-left: 18px solid #EC7063;
+    border-right: 18px solid #EC7063;
+    border-bottom: 11px solid transparent;
+    transform: rotate(270deg);
+}
+
+/*.punta-tirita-dos{
+	background: green;
+}
+*/
+/* <-----> RESPONSIVE <-----> */
+
+@media (min-width: 1024px){
+	.contenido-titular{
+		margin-top: 75px;
+		background: #fff;
+		width: 70%;
+		margin-left: 15%;
+	}	
+}
