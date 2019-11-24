@@ -1,0 +1,45 @@
+/* --------CONTENIDO TITULAR-------- */
+
+.contenido-titular{
+	/*position: relative;*/
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+	margin-top: 75px;
+	/*background: #fff;*/
+	width: 100%;
+	/*background: red;*/
+	/*margin-left: 15%;*/
+}
+
+.img-banner{
+	width: 100%;
+	background: #000;
+}
+
+.img-banner img{
+	width: 100%;
+	max-width: 1024px;
+}
+
+.contenido-titular h1{
+	text-align: center;
+	color: #000;
+	background: rgba(255, 255, 255, 0.5);
+	top: 450px;
+	left: 0px;
+	position: absolute;
+	/*z-index: 100;*/
+	font-family: 'Squada One', cursive;
+	font-size: 40px;
+}
+
+@media (min-width: 1024px){
+	.contenido-titular{
+		margin-top: 75px;
+		background: #fff;
+		width: 70%;
+		margin-left: 15%;
+	}	
+}
