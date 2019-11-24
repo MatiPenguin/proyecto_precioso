@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Escuela de Educación Secundaria Número 23</title>
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Rubik+Mono+One|Squada+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css_files/styles.css">
+</head>
+<body>
+
+	<header class="menu-header">
+		<nav class="menu-container">
+			<a href="#" class="btn-inicio">Inicio</a>
+			<input type="checkbox" id="menu-bar" />
+			<label for="menu-bar" class="label-menu" id="check-label"><img src="https://img.icons8.com/android/48/000000/menu.png"></label>
+				<div class="oculto-header">
+					<a href="#">Centro de Estudiantes</a>
+					<a href="#">Proyectos</a>
+					<a href="#">Jovenes y Memoria</a>
+					<a href="#">Mesas de Examen</a>
+					<a href="#">Extrassss</a>
+					<a href="#">Código</a>
+						<hr class="hr-header" id="checkuno" />
+				</div>
+		</nav>
+		<hr class="hr-header" id="checkdos" />
+	</header>
+
+<!-- <a href="https://icons8.com/icon/3761/menu">Menu icon by Icons8</a>
+<a href="https://icons8.com/icon/85008/close-window">Close Window icon by Icons8</a>
+ -->
+ 	<div class="contenido-titular">
+ 		<div class="img-banner">
+ 			<img src="assets/images/primaide_de_latas.jpg" alt="Piramide de Latas de la escuela secundaria numero 23 de Haedo">
+ 		</div>
+	 	<div class="banner">
+			<h1>Escuela de Educación Secundaria Número 23</h1>
+ 		</div>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<script type="text/javascript">
+	var check_menu = document.getElementById('menu-bar');
+	var checkuno = document.getElementById('checkuno');
+	var checkdos = document.getElementById('checkdos');
+	var check_label = document.getElementById('check-label');
+
+	var condicional_menu = function(){
+		if (check_menu.checked == true) {
+			checkdos.style.display = "none";
+			check_label.innerHTML = '<img src="https://img.icons8.com/material-outlined/48/000000/close-window.png">';
+		}else{
+			checkdos.style.display = "block";
+			check_label.innerHTML = '<img src="https://img.icons8.com/android/48/000000/menu.png">';
+		}
+	}
+
+	check_menu.addEventListener("click", condicional_menu);
+	</script>
+</body>
+</html>
