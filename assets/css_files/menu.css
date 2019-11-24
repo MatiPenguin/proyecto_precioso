@@ -90,10 +90,13 @@ font-family: 'Caveat Brush', cursive;
 		height: 10px;
 	}
 	#menu-bar:checked ~ .oculto-header{
-		height: 1634px;
+		height: 100vh;
 	}
 	.menu-header .oculto-header a{
 		border-bottom: rgb(255, 255, 255, 0.5) solid 5px;
 		padding-bottom: 0;
+	}
+	#checkuno{
+		margin-top: 550px;
 	}
 }
